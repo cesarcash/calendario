@@ -1,0 +1,47 @@
+.myCalendars {
+    max-inline-size: 12.25rem;
+    inline-size: 100%;
+}
+
+.myCalendars p {
+    margin: 0;
+}
+
+.myCalendars-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: .375rem;
+    padding-block: 2px;
+    margin-block-end: .5rem;
+}
+
+.myCalendars-title {
+    font: var(--body1-medium);
+    color: var(--gray30);
+}
+
+.myCalendars-header i {
+    font: var(--body1-medium);    
+    color: var(--gray50);
+}
+
+.myCalendars-options {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.myCalendars-options p {
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    font: var(--body1-regular);
+    color: var(--gray30);
+}
+
+
+.myCalendars-options i {
+    font-size: 1.5rem;
+    color: var(--gray50);
+}
