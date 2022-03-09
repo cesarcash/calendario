@@ -54,3 +54,12 @@
 .miniCalendar-monthDay.is-inactive {
     color: var(--gray20);
 }
+
+/* @media screen and (prefers-color-scheme: dark){
+    :root {
+        --gray30: #c1c1c1;
+        /* --gray50: #fffffe;
+        --gray20: #c1c1c1;
+        --white: #222222; */
+    }
+} */

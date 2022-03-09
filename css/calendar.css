@@ -1,5 +1,7 @@
 @import './task.css';
 @import './task-cell.css';
+@import './task-row.css';
+@import './calendar-week.css';
 @import './calendar-day.css';
 @import './timezone-cell.css';
 @import './hour-cell.css';
@@ -23,5 +25,7 @@
 }
 
 .calendar-day {
-
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(25,minmax(var(--minBlockSize), var(--maxBlockSize)));
 }

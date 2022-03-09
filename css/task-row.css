@@ -1,0 +1,6 @@
+.taskRow {
+    border-block-end: 1px solid currentColor;
+    border-inline-start: 1px solid currentColor;
+    padding-block: .25rem;
+    position: relative
+}
